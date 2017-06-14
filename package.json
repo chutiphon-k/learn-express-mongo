@@ -1,0 +1,26 @@
+{
+  "name": "learn-express-mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://chutiphon-k@github.com/chutiphon-k/learn-express-mongo.git",
+  "author": "Chutiphon.k <chutiphon.k@ku.th>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./server.js --exec babel-node",
+    "prod": "cross-env NODE_ENV=production babel-node ./server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cross-env": "^5.0.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-eslint": "^7.2.1",
+    "babel-plugin-module-resolver": "^2.7.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "nodemon": "^1.11.0"
+  }
+}
